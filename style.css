@@ -1,0 +1,88 @@
+/* CSS - Cascading Style Sheet    
+
+    CSS Syntax    
+        Selector{
+        Property: Value;    
+
+    Selector --> What to Style?    
+    Property --> What kind of Style?    
+    Value --> The Style    
+
+    There are three ways to apply CSS in HTML
+       1) Inline CSS
+       2) Internal CSS
+       3) External CSS 
+    
+    CSS Selectors:
+       1) Type Selector:   */
+h1 {
+    color: black;
+}
+
+/* 2) Universal Selector: (It is used to apply CSS in entire HTML Document. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3) Descendent Selector: */
+div p {
+    font-size: 8px;
+}
+
+/* 4) Class Selector: */
+.first-heading {
+    font-weight: 1rem;
+}
+
+/* 5) ID Selector: */
+#first-box {
+    background-color: blue;
+}
+
+/* 6) Attribute Selector: */
+input[type='email'] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 7) Grouping Selectors: */
+h1,
+.first-heading,
+#first-box,
+input[type='email'] {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+/* CSS Measurements 
+        Relative: cm, in, mm, pc, pt, px
+        Absolute: em, rem, %
+
+        % --> Dimensions
+        em, rem --> Fonts
+
+       CSS Colors
+        There are several ways to giving colors in CSS,
+            1) Color Names:     */
+
+h1 {
+    color: black;
+}
+
+/*   2) RGB:             */
+
+.first-heading {
+    color: rgb(46, 46, 83);
+}
+
+/*   3) Hexcodes: (Visit this website for getting Hexcode colors. [https: //coolors.co, https: //colordesigner.io, https: //colorhunt.co/] )       */
+
+#first-box {
+    color: #A62349;
+}
+
+/* CSS Backgrounds (Visit --> https: //developer.mozilla.org/en-US/docs/Web/CSS/background) for more references about CSS Backgrounds. 
+
+
+   CSS Fonts (Visit --> https: //developer.mozilla.org/en-US/docs/Web/CSS/font) for more references about CSS Fonts*/
