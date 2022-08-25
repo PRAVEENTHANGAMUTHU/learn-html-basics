@@ -1,0 +1,10 @@
+a{
+    background-color: rgb(156, 148, 148);
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+a:visited{
+    color: rgb(21, 20, 20);
+}
