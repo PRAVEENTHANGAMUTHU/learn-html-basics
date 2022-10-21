@@ -26,7 +26,8 @@
     3) Background attachment
     4) Background position
     5) Background repeat
-    6) Background
+    6) Background color
+    7) Background
 
    CSS Borders
     1) Border style
@@ -63,5 +64,36 @@
     4) :active
     5) :focus
 
+    CSS Types of Gradients
+    1) Linear Gradient
+    2) Radial Gradient
+    3) Conic Gradient
+
+    CSS Positions
+    1) Static
+    2) Relative
+    3) Absolute
+    4) Sticky
+    5) Fixed
+
+    CSS Flex
+    1) Flex
+    2) Flex Direction - (row, row-reverse, column, column-reverse)
+    3) Flex Wrap - (wrap, un-wrap, wrap-reverse)
+    4) Flex Grow
+    5) Flex Shrink
+    6) Align Items - (flex-start, flex-end, space-between, space-around, strech)
+    7) Justify-content
+
+    CSS Grids
+    1) Grid
+    2) Grid-template-column
+    3) Grid-template-row
+    4) Grid-column
+    5) Grid-row
+    6) Column-gap
+    7) Row-gap
+    8) Grid-template-areas
+    9) Grid-template 
     */ 
     
